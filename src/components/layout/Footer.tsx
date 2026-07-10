@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { PenNib, LinkedinLogo, TwitterLogo, FacebookLogo, Sparkle } from "@phosphor-icons/react/dist/ssr";
 
 export function Footer() {
@@ -8,9 +9,7 @@ export function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mb-12 text-center sm:text-left">
           <div className="col-span-1 sm:col-span-2 md:col-span-1 flex flex-col items-center sm:items-start">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-brand-600 rounded flex items-center justify-center text-white">
-                <PenNib weight="fill" className="text-lg" />
-              </div>
+              <Image src="/logo.png" alt="SignPoint Logo" width={58} height={58} className="w-12 h-12 object-contain" />
               <span className="font-bold text-xl text-slate-900">SignPoint</span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed">

@@ -58,7 +58,7 @@ export function AiReviewSection() {
                   </div>
                   <div className="bg-slate-700/50 rounded-xl rounded-tl-none p-3 text-xs sm:text-sm text-slate-200 flex flex-wrap items-center gap-2">
                     <span>Ada di <strong>Hal. 14, Paragraf 3</strong>.</span>
-                    <button className="bg-slate-600 hover:bg-slate-500 px-3 py-1.5 rounded text-[10px] sm:text-xs font-bold transition flex items-center gap-1">
+                    <button className="bg-slate-600 hover:bg-slate-500 px-3 py-1.5 rounded text-[10px] sm:text-xs font-bold transition flex items-center gap-1 cursor-pointer">
                       Ke Halaman 14 <ArrowRight weight="bold" />
                     </button>
                   </div>
@@ -103,7 +103,7 @@ export function AiReviewSection() {
                 <span className="text-slate-300 text-sm sm:text-base"><strong>Tanya Jawab (Chat PDF):</strong> Chat langsung dengan dokumen Anda untuk mencari info spesifik.</span>
               </li>
             </ul>
-            <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3.5 rounded-lg font-bold transition shadow-lg shadow-purple-500/30 flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto mx-auto lg:mx-0">
+            <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3.5 rounded-lg font-bold transition shadow-lg shadow-purple-500/30 flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto mx-auto lg:mx-0 cursor-pointer">
               <PlayCircle weight="fill" className="text-xl" />
               Lihat Cara AI Bekerja
             </button>

@@ -19,10 +19,10 @@ export function HeroSection() {
               Percepat alur kerja dokumen perusahaan Anda tanpa meninggalkan ekosistem Microsoft. Dilengkapi <strong>AI cerdas</strong> untuk meninjau kontrak sebelum ditandatangani. Aman dan sah secara hukum.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-brand-500/20 transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
+              <button className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-brand-500/20 transition transform hover:-translate-y-1 flex items-center justify-center gap-2 cursor-pointer">
                 Install App Sekarang
               </button>
-              <button className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg shadow-sm transition flex items-center justify-center gap-2">
+              <button className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
                 <PlayCircle weight="fill" className="text-xl" />
                 Lihat Demo
               </button>
@@ -76,7 +76,7 @@ export function HeroSection() {
                     <span className="text-slate-400 group-hover:hidden text-sm sm:text-base">Area Tanda Tangan</span>
                     <Signature weight="bold" className="text-3xl sm:text-4xl text-brand-600 absolute opacity-0 group-hover:opacity-100 transition-opacity transform scale-125" />
                   </div>
-                  <button className="mt-4 w-full bg-brand-600 text-white py-2 rounded-lg font-medium text-sm hover:bg-brand-700 transition">Selesaikan Dokumen</button>
+                  <button className="mt-4 w-full bg-brand-600 text-white py-2 rounded-lg font-medium text-sm hover:bg-brand-700 transition cursor-pointer">Selesaikan Dokumen</button>
                 </div>
               </div>
             </div>

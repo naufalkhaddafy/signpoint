@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { PenNib, Sparkle, ArrowRight, List } from "@phosphor-icons/react";
 import { cn } from "@/lib/utils";
 
@@ -32,9 +33,7 @@ export function Navbar() {
           <div className="flex justify-between h-20 items-center">
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-              <div className="w-10 h-10 bg-brand-600 rounded-lg flex items-center justify-center text-white">
-                <PenNib weight="fill" className="text-2xl" />
-              </div>
+              <Image src="/logo.png" alt="SignPoint Logo" width={58} height={58} className="w-16 h-16 object-contain" />
               <span className="font-bold text-2xl tracking-tight text-brand-900">SignPoint</span>
             </Link>
 
@@ -62,7 +61,7 @@ export function Navbar() {
 
             {/* CTA Button */}
             <div className="hidden md:flex">
-              <button className="bg-brand-600 hover:bg-brand-700 text-white px-6 py-2.5 rounded-full font-semibold transition shadow-lg shadow-brand-500/30 flex items-center gap-2">
+              <button className="bg-brand-600 hover:bg-brand-700 text-white px-6 py-2.5 rounded-full font-semibold transition shadow-lg shadow-brand-500/30 flex items-center gap-2 cursor-pointer">
                 <span>Coba Gratis</span>
                 <ArrowRight weight="bold" />
               </button>
@@ -72,7 +71,7 @@ export function Navbar() {
             <div className="md:hidden flex items-center">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="text-slate-600 hover:text-brand-600 focus:outline-none"
+                className="text-slate-600 hover:text-brand-600 focus:outline-none cursor-pointer"
                 aria-label="Toggle menu"
               >
                 <List weight="bold" className="text-3xl" />
