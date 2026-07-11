@@ -10,9 +10,44 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://signpoint.app";
+const siteDescription =
+  "Solusi tanda tangan elektronik yang terintegrasi langsung di dalam Microsoft SharePoint, dilengkapi AI Document Review.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "SignPoint - E-Signature Native untuk SharePoint dengan AI",
-  description: "Solusi tanda tangan elektronik yang terintegrasi langsung di dalam Microsoft SharePoint, dilengkapi AI Document Review.",
+  description: siteDescription,
+  keywords: [
+    "tanda tangan elektronik",
+    "e-signature",
+    "SharePoint",
+    "Microsoft 365",
+    "AI Document Review",
+    "SignPoint",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: siteUrl,
+    siteName: "SignPoint",
+    title: "SignPoint - E-Signature Native untuk SharePoint dengan AI",
+    description: siteDescription,
+    images: [
+      {
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: "SignPoint",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SignPoint - E-Signature Native untuk SharePoint dengan AI",
+    description: siteDescription,
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({
