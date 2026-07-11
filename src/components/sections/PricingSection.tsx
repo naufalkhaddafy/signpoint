@@ -14,7 +14,7 @@ export function PricingSection() {
             Siap mendigitalkan dokumen Anda?
           </h2>
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
-            Bergabung dengan 500+ perusahaan yang telah mempercepat proses administrasi mereka dengan SignPoint.
+            Percepat proses administrasi tim Anda dengan SignPoint.
           </p>
         </div>
         
