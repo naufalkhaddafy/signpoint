@@ -65,7 +65,7 @@ export function Footer() {
                 <Link href="#" className="hover:text-brand-600 transition">Terms of Service</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Kepatuhan UU ITE</Link>
+                <Link href="#" className="hover:text-brand-600 transition">Kepatuhan</Link>
               </li>
             </ul>
           </div>
