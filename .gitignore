@@ -19,6 +19,9 @@
 
 # production
 /build
+prompt.md
+todo.md
+opencode.json
 
 # misc
 .DS_Store
