@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SquaresFour, CheckCircle, PlayCircle, FilePdf, Signature } from "@phosphor-icons/react/dist/ssr";
 
 export function HeroSection() {
@@ -19,13 +20,13 @@ export function HeroSection() {
               Percepat alur kerja dokumen perusahaan Anda tanpa meninggalkan ekosistem Microsoft. Dilengkapi <strong>AI cerdas</strong> untuk meninjau kontrak sebelum ditandatangani. Aman dan mendukung alur tanda tangan yang tertib.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-brand-500/20 transition transform hover:-translate-y-1 flex items-center justify-center gap-2 cursor-pointer">
+              <Link href="#contact" className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-brand-500/20 transition transform hover:-translate-y-1 flex items-center justify-center gap-2 cursor-pointer">
                 Install App Sekarang
-              </button>
-              <button className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
+              </Link>
+              <Link href="#how-it-works" className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
                 <PlayCircle weight="fill" className="text-xl" />
                 Lihat Demo
-              </button>
+              </Link>
             </div>
             
             <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4 lg:gap-6 text-sm text-slate-500">

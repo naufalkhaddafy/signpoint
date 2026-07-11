@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { PenNib, Sparkle, ArrowRight, List } from "@phosphor-icons/react";
+import { Sparkle, ArrowRight, List } from "@phosphor-icons/react";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -61,10 +61,10 @@ export function Navbar() {
 
             {/* CTA Button */}
             <div className="hidden md:flex">
-              <button className="bg-brand-600 hover:bg-brand-700 text-white px-6 py-2.5 rounded-full font-semibold transition shadow-lg shadow-brand-500/30 flex items-center gap-2 cursor-pointer">
+              <Link href="#contact" className="bg-brand-600 hover:bg-brand-700 text-white px-6 py-2.5 rounded-full font-semibold transition shadow-lg shadow-brand-500/30 flex items-center gap-2 cursor-pointer">
                 <span>Coba Gratis</span>
                 <ArrowRight weight="bold" />
-              </button>
+              </Link>
             </div>
 
             {/* Mobile menu button */}
@@ -116,11 +116,11 @@ export function Navbar() {
                 Harga
               </Link>
               <Link
-                href="#pricing"
+                href="#contact"
                 onClick={() => setIsOpen(false)}
                 className="block px-3 py-3 text-base font-bold text-brand-600 bg-brand-50 rounded-md mt-4 text-center border border-brand-100"
               >
-                Mulai Trial 14 Hari
+                Coba Gratis
               </Link>
             </div>
           </div>
