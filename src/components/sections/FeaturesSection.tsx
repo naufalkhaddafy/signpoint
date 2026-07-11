@@ -24,7 +24,7 @@ export function FeaturesSection() {
             </div>
             <h4 className="text-xl font-bold text-slate-900 mb-3">Integrasi Native</h4>
             <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-              SignPoint muncul langsung di menu "Context" SharePoint. Klik kanan pada dokumen apa saja, dan mulai tanda tangan tanpa pindah aplikasi.
+              SignPoint muncul langsung di menu &ldquo;Context&rdquo; SharePoint. Klik kanan pada dokumen apa saja, dan mulai tanda tangan tanpa pindah aplikasi.
             </p>
           </div>
 
