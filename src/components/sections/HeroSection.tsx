@@ -9,14 +9,14 @@ export function HeroSection() {
           <div className="text-center lg:text-left">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-100 text-brand-700 text-sm font-semibold mb-6">
               <SquaresFour weight="fill" />
-              <span>Terverifikasi untuk Microsoft 365</span>
+              <span>Dirancang untuk Microsoft 365</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
               Tanda Tangan Digital, <br />
               <span className="text-brand-600">Langsung di SharePoint.</span>
             </h1>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Percepat alur kerja dokumen perusahaan Anda tanpa meninggalkan ekosistem Microsoft. Dilengkapi <strong>AI cerdas</strong> untuk meninjau kontrak sebelum ditandatangani. Aman dan sah secara hukum.
+              Percepat alur kerja dokumen perusahaan Anda tanpa meninggalkan ekosistem Microsoft. Dilengkapi <strong>AI cerdas</strong> untuk meninjau kontrak sebelum ditandatangani. Aman dan mendukung alur tanda tangan yang tertib.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <button className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-brand-500/20 transition transform hover:-translate-y-1 flex items-center justify-center gap-2 cursor-pointer">
@@ -31,11 +31,11 @@ export function HeroSection() {
             <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4 lg:gap-6 text-sm text-slate-500">
               <div className="flex items-center gap-1">
                 <CheckCircle weight="fill" className="text-green-500 text-lg" />
-                <span>Sertifikasi ISO 27001</span>
+                <span>Praktik keamanan enterprise</span>
               </div>
               <div className="flex items-center gap-1">
                 <CheckCircle weight="fill" className="text-green-500 text-lg" />
-                <span>Sesuai UU ITE</span>
+                <span>Mendukung kebutuhan kepatuhan</span>
               </div>
             </div>
           </div>
