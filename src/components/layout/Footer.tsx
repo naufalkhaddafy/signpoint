@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { EnvelopeSimple, Buildings, PaperPlaneTilt, Sparkle } from "@phosphor-icons/react/dist/ssr";
+import { EnvelopeSimple, Info, PaperPlaneTilt, Sparkle } from "@phosphor-icons/react/dist/ssr";
 
 export function Footer() {
   return (
@@ -78,7 +78,7 @@ export function Footer() {
               <EnvelopeSimple weight="fill" className="text-xl sm:text-2xl" />
             </a>
             <Link href="/#company" aria-label="Tentang SignPoint" className="hover:text-brand-600 transition transform hover:scale-110">
-              <Buildings weight="fill" className="text-xl sm:text-2xl" />
+              <Info weight="fill" className="text-xl sm:text-2xl" />
             </Link>
             <Link href="/contact" aria-label="Kontak" className="hover:text-brand-600 transition transform hover:scale-110">
               <PaperPlaneTilt weight="fill" className="text-xl sm:text-2xl" />
