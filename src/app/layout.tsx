@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "SignPoint - E-Signature Native untuk SharePoint dengan AI",
-  description: "Solusi tanda tangan elektronik terpercaya yang terintegrasi langsung di dalam Microsoft SharePoint, dilengkapi AI Document Review.",
+  description: "Solusi tanda tangan elektronik yang terintegrasi langsung di dalam Microsoft SharePoint, dilengkapi AI Document Review.",
 };
 
 export default function RootLayout({
