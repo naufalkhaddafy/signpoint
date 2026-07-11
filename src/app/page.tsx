@@ -3,7 +3,10 @@ import { TrustedBySection } from "@/components/sections/TrustedBySection";
 import { FeaturesSection } from "@/components/sections/FeaturesSection";
 import { AiReviewSection } from "@/components/sections/AiReviewSection";
 import { HowItWorksSection } from "@/components/sections/HowItWorksSection";
+import { SecuritySection } from "@/components/sections/SecuritySection";
 import { PricingSection } from "@/components/sections/PricingSection";
+import { CompanySection } from "@/components/sections/CompanySection";
+import { ContactSection } from "@/components/sections/ContactSection";
 
 export default function Home() {
   return (
@@ -14,7 +17,10 @@ export default function Home() {
         <FeaturesSection />
         <AiReviewSection />
         <HowItWorksSection />
+        <SecuritySection />
         <PricingSection />
+        <CompanySection />
+        <ContactSection />
       </div>
     </main>
   );
