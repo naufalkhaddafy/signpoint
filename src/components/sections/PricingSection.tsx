@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CheckCircle } from "@phosphor-icons/react/dist/ssr";
 
 export function PricingSection() {
@@ -14,7 +15,7 @@ export function PricingSection() {
             Siap mendigitalkan dokumen Anda?
           </h2>
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
-            Bergabung dengan 500+ perusahaan yang telah mempercepat proses administrasi mereka dengan SignPoint.
+            Percepat proses administrasi tim Anda dengan SignPoint.
           </p>
         </div>
         
@@ -33,9 +34,9 @@ export function PricingSection() {
               <li className="flex items-start gap-3"><CheckCircle weight="fill" className="text-brand-600 text-xl flex-shrink-0" /> 1 Pengguna</li>
               <li className="flex items-start gap-3"><CheckCircle weight="fill" className="text-brand-600 text-xl flex-shrink-0" /> Integrasi SharePoint Dasar</li>
             </ul>
-            <button className="w-full bg-white text-brand-600 border border-brand-200 py-3 rounded-xl font-bold hover:bg-brand-50 transition text-sm cursor-pointer">
+            <Link href="#contact" className="w-full bg-white text-brand-600 border border-brand-200 py-3 rounded-xl font-bold hover:bg-brand-50 transition text-sm cursor-pointer text-center">
               Mulai Gratis
-            </button>
+            </Link>
           </div>
 
           {/* Pro Plan */}
@@ -59,9 +60,9 @@ export function PricingSection() {
               <li className="flex items-start gap-3"><CheckCircle weight="fill" className="text-brand-600 text-xl flex-shrink-0" /> Integrasi SharePoint Penuh</li>
               <li className="flex items-start gap-3"><CheckCircle weight="fill" className="text-brand-600 text-xl flex-shrink-0" /> Email Support Prioritas</li>
             </ul>
-            <button className="w-full bg-brand-600 text-white py-3 rounded-xl font-bold hover:bg-brand-700 transition shadow-lg shadow-brand-500/30 text-sm cursor-pointer">
+            <Link href="#contact" className="w-full bg-brand-600 text-white py-3 rounded-xl font-bold hover:bg-brand-700 transition shadow-lg shadow-brand-500/30 text-sm cursor-pointer text-center">
               Mulai Berlangganan
-            </button>
+            </Link>
           </div>
 
           {/* Enterprise Plan */}
@@ -79,9 +80,9 @@ export function PricingSection() {
               <li className="flex items-start gap-3"><CheckCircle weight="fill" className="text-purple-400 text-xl flex-shrink-0" /> <strong>Akses Fitur AI Review</strong></li>
               <li className="flex items-start gap-3"><CheckCircle weight="fill" className="text-accent-500 text-xl flex-shrink-0" /> Support Prioritas 24/7 & SLA</li>
             </ul>
-            <button className="w-full bg-white text-slate-900 py-3 rounded-xl font-bold hover:bg-slate-100 transition text-sm cursor-pointer">
+            <Link href="#contact" className="w-full bg-white text-slate-900 py-3 rounded-xl font-bold hover:bg-slate-100 transition text-sm cursor-pointer text-center">
               Jadwalkan Demo
-            </button>
+            </Link>
           </div>
         </div>
       </div>

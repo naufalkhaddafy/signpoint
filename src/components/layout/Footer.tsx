@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { PenNib, LinkedinLogo, TwitterLogo, FacebookLogo, Sparkle } from "@phosphor-icons/react/dist/ssr";
+import { EnvelopeSimple, Info, PaperPlaneTilt, Sparkle } from "@phosphor-icons/react/dist/ssr";
 
 export function Footer() {
   return (
@@ -21,18 +21,18 @@ export function Footer() {
             <h4 className="font-bold text-slate-900 mb-4 uppercase tracking-wider text-sm">Produk</h4>
             <ul className="space-y-3 text-sm text-slate-600">
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Fitur Utama</Link>
+                <Link href="/features" className="hover:text-brand-600 transition">Fitur Utama</Link>
               </li>
               <li>
-                <Link href="#ai-review" className="hover:text-purple-600 transition flex items-center justify-center sm:justify-start gap-1">
-                  AI Review <Sparkle weight="fill" />
+                <Link href="/demo" className="hover:text-purple-600 transition flex items-center justify-center sm:justify-start gap-1">
+                  Demo AI Review <Sparkle weight="fill" />
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Keamanan & Legal</Link>
+                <Link href="/security" className="hover:text-brand-600 transition">Keamanan & Kepatuhan</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">API Documentation</Link>
+                <Link href="/pricing" className="hover:text-brand-600 transition">Harga</Link>
               </li>
             </ul>
           </div>
@@ -41,16 +41,16 @@ export function Footer() {
             <h4 className="font-bold text-slate-900 mb-4 uppercase tracking-wider text-sm">Perusahaan</h4>
             <ul className="space-y-3 text-sm text-slate-600">
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Tentang Kami</Link>
+                <Link href="/#company" className="hover:text-brand-600 transition">Tentang Kami</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Karir</Link>
+                <Link href="/#how-it-works" className="hover:text-brand-600 transition">Cara Kerja</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Blog & Studi Kasus</Link>
+                <Link href="/contact" className="hover:text-brand-600 transition">Kontak</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Hubungi Sales</Link>
+                <a href="mailto:hello@signpoint.app" className="hover:text-brand-600 transition">Hubungi Sales</a>
               </li>
             </ul>
           </div>
@@ -59,13 +59,13 @@ export function Footer() {
             <h4 className="font-bold text-slate-900 mb-4 uppercase tracking-wider text-sm">Legal</h4>
             <ul className="space-y-3 text-sm text-slate-600">
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Privacy Policy</Link>
+                <Link href="/privacy" className="hover:text-brand-600 transition">Kebijakan Privasi</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Terms of Service</Link>
+                <Link href="/terms" className="hover:text-brand-600 transition">Ketentuan Layanan</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-brand-600 transition">Kepatuhan UU ITE</Link>
+                <Link href="/security" className="hover:text-brand-600 transition">Kepatuhan</Link>
               </li>
             </ul>
           </div>
@@ -74,14 +74,14 @@ export function Footer() {
         <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-xs sm:text-sm">© 2026 SignPoint Inc. All rights reserved.</p>
           <div className="flex gap-5 text-slate-400">
-            <Link href="#" className="hover:text-brand-600 transition transform hover:scale-110">
-              <LinkedinLogo weight="fill" className="text-xl sm:text-2xl" />
+            <a href="mailto:hello@signpoint.app" aria-label="Hubungi kami via email" className="hover:text-brand-600 transition transform hover:scale-110">
+              <EnvelopeSimple weight="fill" className="text-xl sm:text-2xl" />
+            </a>
+            <Link href="/#company" aria-label="Tentang SignPoint" className="hover:text-brand-600 transition transform hover:scale-110">
+              <Info weight="fill" className="text-xl sm:text-2xl" />
             </Link>
-            <Link href="#" className="hover:text-brand-600 transition transform hover:scale-110">
-              <TwitterLogo weight="fill" className="text-xl sm:text-2xl" />
-            </Link>
-            <Link href="#" className="hover:text-brand-600 transition transform hover:scale-110">
-              <FacebookLogo weight="fill" className="text-xl sm:text-2xl" />
+            <Link href="/contact" aria-label="Kontak" className="hover:text-brand-600 transition transform hover:scale-110">
+              <PaperPlaneTilt weight="fill" className="text-xl sm:text-2xl" />
             </Link>
           </div>
         </div>

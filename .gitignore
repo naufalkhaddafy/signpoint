@@ -19,10 +19,14 @@
 
 # production
 /build
+prompt.md
+todo.md
+opencode.json
 
 # misc
 .DS_Store
 *.pem
+.playwright-mcp/
 
 # debug
 npm-debug.log*

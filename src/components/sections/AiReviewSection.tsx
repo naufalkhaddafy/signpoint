@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FilePdf, Sparkle, WarningCircle, ArrowRight, MagicWand, CheckCircle, PlayCircle } from "@phosphor-icons/react/dist/ssr";
 
 export function AiReviewSection() {
@@ -103,10 +104,10 @@ export function AiReviewSection() {
                 <span className="text-slate-300 text-sm sm:text-base"><strong>Tanya Jawab (Chat PDF):</strong> Chat langsung dengan dokumen Anda untuk mencari info spesifik.</span>
               </li>
             </ul>
-            <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3.5 rounded-lg font-bold transition shadow-lg shadow-purple-500/30 flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto mx-auto lg:mx-0 cursor-pointer">
+            <Link href="/demo" className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3.5 rounded-lg font-bold transition shadow-lg shadow-purple-500/30 flex items-center justify-center lg:justify-start gap-2 w-full sm:w-auto mx-auto lg:mx-0 cursor-pointer">
               <PlayCircle weight="fill" className="text-xl" />
               Lihat Cara AI Bekerja
-            </button>
+            </Link>
           </div>
         </div>
       </div>
