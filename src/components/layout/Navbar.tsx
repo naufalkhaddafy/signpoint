@@ -57,6 +57,9 @@ export function Navbar() {
               <Link href="#pricing" className="text-slate-600 hover:text-brand-600 font-medium transition">
                 Harga
               </Link>
+              <Link href="/demo" className="text-slate-600 hover:text-brand-600 font-medium transition">
+                Demo
+              </Link>
             </div>
 
             {/* CTA Button */}
@@ -116,11 +119,18 @@ export function Navbar() {
                 Harga
               </Link>
               <Link
-                href="#contact"
+                href="/demo"
+                onClick={() => setIsOpen(false)}
+                className="block px-3 py-3 text-base font-medium text-slate-600 hover:text-brand-600 hover:bg-slate-50 rounded-md"
+              >
+                Demo
+              </Link>
+              <Link
+                href="/demo"
                 onClick={() => setIsOpen(false)}
                 className="block px-3 py-3 text-base font-bold text-brand-600 bg-brand-50 rounded-md mt-4 text-center border border-brand-100"
               >
-                Coba Gratis
+                Coba Demo
               </Link>
             </div>
           </div>

@@ -23,7 +23,7 @@ export function HeroSection() {
               <Link href="#contact" className="bg-brand-600 hover:bg-brand-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-brand-500/20 transition transform hover:-translate-y-1 flex items-center justify-center gap-2 cursor-pointer">
                 Install App Sekarang
               </Link>
-              <Link href="#how-it-works" className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
+              <Link href="/demo" className="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-8 py-4 rounded-xl font-bold text-lg shadow-sm transition flex items-center justify-center gap-2 cursor-pointer">
                 <PlayCircle weight="fill" className="text-xl" />
                 Lihat Demo
               </Link>
