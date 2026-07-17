@@ -49,10 +49,10 @@ export default function TermsPage() {
             <p>
               Pertanyaan mengenai ketentuan ini dapat dikirim ke{" "}
               <a
-                href="mailto:hello@signpoint.app"
+                href="mailto:support@signpoint.my.id"
                 className="text-brand-600 font-semibold hover:underline"
               >
-                hello@signpoint.app
+                support@signpoint.my.id
               </a>
               .
             </p>

@@ -19,7 +19,7 @@ export function ContactSection() {
         </p>
 
         <form
-          action="mailto:hello@signpoint.app"
+          action="mailto:support@signpoint.my.id"
           method="post"
           encType="text/plain"
           className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto"
@@ -46,8 +46,8 @@ export function ContactSection() {
 
         <p className="text-brand-200 text-sm mt-6">
           Atau email langsung ke{" "}
-          <a href="mailto:hello@signpoint.app" className="underline font-semibold hover:text-white transition">
-            hello@signpoint.app
+          <a href="mailto:support@signpoint.my.id" className="underline font-semibold hover:text-white transition">
+            support@signpoint.my.id
           </a>
         </p>
       </div>

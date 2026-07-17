@@ -50,7 +50,7 @@ export function Footer() {
                 <Link href="/contact" className="hover:text-brand-600 transition">Kontak</Link>
               </li>
               <li>
-                <a href="mailto:hello@signpoint.app" className="hover:text-brand-600 transition">Hubungi Sales</a>
+                <a href="mailto:support@signpoint.my.id" className="hover:text-brand-600 transition">Hubungi Sales</a>
               </li>
             </ul>
           </div>
@@ -74,7 +74,7 @@ export function Footer() {
         <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-400 text-xs sm:text-sm">© 2026 SignPoint Inc. All rights reserved.</p>
           <div className="flex gap-5 text-slate-400">
-            <a href="mailto:hello@signpoint.app" aria-label="Hubungi kami via email" className="hover:text-brand-600 transition transform hover:scale-110">
+            <a href="mailto:support@signpoint.my.id" aria-label="Hubungi kami via email" className="hover:text-brand-600 transition transform hover:scale-110">
               <EnvelopeSimple weight="fill" className="text-xl sm:text-2xl" />
             </a>
             <Link href="/#company" aria-label="Tentang SignPoint" className="hover:text-brand-600 transition transform hover:scale-110">
